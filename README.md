@@ -5,9 +5,46 @@ Climate change and environmental issues are arguably the biggest challenges of o
 
 Divit Jawa: divitj@uw.edu
 
+![alt text]( imgs/divit.png "Divit Jawa")
+
 Liam Albright: liamaw@uw.edu
+
+![alt text]( imgs/liam.png "Liam Albright")
 
 John Tumenbayar: tumenk@uw.edu
 
+![alt text]( imgs/john.png "John Tumenbayar")
+
 Rhea Chen: xinyuc2@uw.edu
- 
+
+![alt text]( imgs/rhea.png "Rhea Chen")
+
+
+## One line description 
+
+Our platform creates a space for community to engage and collaborate in research that can ultimately help us fight climate change.
+
+## Why you should care
+the world is literally on fire, everywhere. 
+
+
+## Solution drafts
+
+![alt text]( imgs/sksol.png )
+
+
+![alt text]( imgs/06oZMk.png )
+
+
+# collaborators
+
+Turam Purty
+
+Ashish Anand
+
+Vashon Nature Centre(VNC)
+
+COASST at UW
+
+
+This project is a part of the Capstone Project course at the University of Washington Information School 
