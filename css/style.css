@@ -1,0 +1,245 @@
+body {
+font-family: 'Lato', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+font-weight: 300;
+font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: .5rem;
+
+}
+
+h1{
+    font-weight: 100;
+}
+
+p {
+line-height: 1.43;
+margin-top: 0px;
+margin-bottom: 1rem;
+
+  }
+
+  header {
+    min-height: 400px;
+    background-image: url("../img/Greenstuff.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    padding: 15px 0px;
+    color:#F8F8F8;
+}
+
+header .container {
+    padding-top: 200px;
+}
+
+.get-yours-desktop {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.get-yours-mobile {
+    display: none;
+}
+
+.features {
+    background-color: #F8F8F8;
+    padding: 15px 0px;
+}
+
+.feature {
+    margin-bottom: 15px;
+}
+
+.feature svg {
+    width: 75px;
+    fill: #814236;
+}
+
+.feature-content {
+    min-height: 320px;
+    background-color: white;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: center;
+}
+h2.feat_header{
+    padding: 25px;
+    text-align: center;
+  }
+
+  .uses-content {
+    min-height: 320px;
+    background-color: white;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+    text-align: left ;
+    margin-top: 25px;   
+
+}
+    .use img {
+    height: 250px;
+    width: 75px;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+
+
+}
+
+.use {
+        margin-bottom: 15px;
+        display: block;
+        float: none;    
+        margin: 0 auto;    
+}
+.uses {
+    background-color: #EBEBEB;
+    padding: 15px 0px;
+   
+}
+.uses-content-copy {
+    padding-left: 20px;
+    vertical-align: top;
+
+}
+
+h2.uses_header{
+    text-align: center;
+  }
+
+
+  .test-content {
+    min-height: 100px;
+    text-align: left ;
+    margin-top: 25px;   
+
+}
+.testimonials {
+    background-color:    #F8F8F8;
+    padding: 15px 0px;
+   
+}
+
+.testimonial img {
+    float:left;
+    border-radius: 50%;
+}
+
+.test-content-copy {
+    padding-left: 100px;
+}
+
+span.title{
+font-size: 80%;    
+color: #999999;    
+}
+
+h2.test_header{
+    padding: 25px;
+    text-align: center;
+  }
+
+
+  footer {
+    background-color: #391D18;
+    color: #EEEEEE;
+    background-size: cover;
+    padding: 15px 0px;
+}
+
+footer .container {
+    padding-top: 5px;
+}
+
+
+.soc-link-desktop {
+    text-align: right;
+    font-size: 20px;
+    padding: 0px;
+}
+
+
+.soc-link-desktop h5 {
+    float:left;
+}
+.soc-link-desktop a {
+    text-decoration: none;
+}
+.soc-link-mobile {
+    display: none;
+}
+
+
+@media (max-width: 991px) {
+    header {
+        height: auto;
+        min-height: auto;
+        background-image: linear-gradient(to bottom, #391D18, #814236);
+        color: white;
+    }
+
+    header .container {
+        padding-top: 0px;
+    }
+
+    .feature-content {
+        text-align: left;
+    }
+
+    .feature-content-copy {
+        padding-left: 75px;
+        line-height: 1.2;
+    }
+
+    .feature svg {
+        float: left;
+    }
+
+    .get-yours-desktop {
+        display: none;
+    }
+
+    .get-yours-mobile {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        display: inline-block;
+        color: white;
+    }
+    h2.feat_header{
+        padding: 25px;
+        text-align: center;
+      }
+
+
+    .soc-link-desktop {
+        display: none;
+    }
+
+    .soc-link-mobile {
+        top: 15px;
+        right: 10px;
+        display: inline-block;
+        color: white;
+    }
+
+    .soc-link-mobile h5 {
+        margin-bottom: 25px;   
+   
+
+}
+    .soc-link-mobile a {
+        text-decoration: none;
+        margin-bottom: 25px;   
+
+    }
+    
+}
