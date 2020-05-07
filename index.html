@@ -20,11 +20,39 @@
 
     <!--page icon-->
     <link rel="icon" href="img/pencil-icon.png" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+
 </head>
 
 
 <body>
     <!-- Page content goes here -->
+<!-- Load TensorFlow.js. This is required to use MobileNet. -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+
+<!-- Load the MobileNet model. -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+
+<!-- Replace this with your image. Make sure CORS settings allow reading the image! -->
+<img id="img" src="img/skurl2.jpg"> </img>
+
+<!-- Place your code in the script tag below. You can also use an external .js file -->
+<script>
+  
+  async function learnlinear(){
+      
+    const img = document.getElementById('img');
+
+    const model = await tf.loadLayersModel('keras_model/modeltfjs.json');
+    const resized_image = tf.image.resize_images(img, [50, 50])
+
+
+  
+     const example =  tf.browser.fromPixels(resized);  // for example
+     const prediction = model.predict(example);
+}
+
+</script>
 
     <header> 
             <div class="container">
@@ -246,6 +274,7 @@
 
 
 </body>
+<script src="js/app.js" type="module" ></script>
 
 
 
