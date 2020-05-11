@@ -1,4 +1,4 @@
-// Sign up at https://openweathermap.org/ to obtain an API key
+
 //import * as tf from '@tensorflow/tfjs';
 //import * as tf from '@tensorflow/tfjs-core';
 var track = document.getElementById("upload");
