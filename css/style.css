@@ -1,18 +1,23 @@
+@import url('https://rsms.me/inter/inter.css');
+@supports (font-variation-settings: normal) {
+
+
 body {
-font-family: 'Lato', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+font-family: 'Inter', sans-serif;
 font-weight: 300;
 font-size: 18px;
 }
 
 h1, h2, h3 {
-    font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin-top: 0px;
     margin-bottom: .5rem;
 
 }
 
 h1{
-    font-weight: 100;
+    font-weight: bold;
+    
 }
 
 p {
@@ -27,7 +32,7 @@ margin-bottom: 1rem;
     background-image: url("../img/Greenstuff.jpg");
     background-size: cover;
     background-position: center bottom;
-    padding: 15px 0px;
+    padding: 0px 0px;
     color:#F8F8F8;
 }
 
@@ -149,10 +154,12 @@ h2.test_header{
 
 
   footer {
-    background-color: #391D18;
+    background-color: #183231;
     color: #EEEEEE;
     background-size: cover;
     padding: 15px 0px;
+    bottom: 0px;
+
 }
 
 footer .container {
@@ -230,12 +237,15 @@ footer .container {
     right: 50%;
   }
   
+
   form button:hover {
     background-color: #FFCCCC;
     transform: rotate(720deg);
   }
   
-
+  .tag_image_subtitle {
+      padding-top: 300px;
+  }
 
   
 @media (max-width: 991px) {
@@ -302,4 +312,5 @@ footer .container {
 
     }
     
+}
 }
